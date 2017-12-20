@@ -69,9 +69,9 @@ Pool(os.cpu_count())
 | Method | Detail |
 |--------|--------|
 | apply() | 複数の引数を伴って与えられたメソッドを呼び出す。結果が出るまでブロックする|
-| apply_async() | 複数の引数を伴って与えられたメソッドを非同期で呼び出す。 `Asyncesult` オブジェクトを返す |
+| apply_async() | 複数の引数を伴って与えられたメソッドを非同期で呼び出す。 `AsyncResult` オブジェクトを返す |
 | map() | 組み込み関数 `map()` の並列版。単一引数のみ |
-| map_async() | `map()` の非同期版。 `Asyncesult` オブジェクトを返す|
+| map_async() | `map()` の非同期版。 `AsyncResult` オブジェクトを返す|
 
 
 上のサンプルでは `apply_async()` を使用しています。
