@@ -25,7 +25,7 @@ $ vi .env
 
 ### Activate virtualenv and install requirements
 ```
-$ virtualenv venv
+$ python3 -m venv venv
 $ . venv/bin/activate
 $ pip3 install -e ".[debug]"
 ```
